@@ -1,0 +1,14 @@
+/* ./src/styles/global.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import "../css/typography.css"; */
+
+body {
+  color: hsla(0, 0%, 0%, 0.8);
+  font-family: "poppins", georgia, serif;
+  font-weight: normal;
+  word-wrap: break-word;
+  font-kerning: normal;
+}
